@@ -11,8 +11,10 @@ public class problem_4_1 {
         } else if(nums2.length == 0) {
             return (double) (nums1.length % 2 == 0 ? nums1[nums1.length / 2 + nums1.length / 2 - 1] : nums1[nums1.length / 2]);
         }
+        return 0.0;
+    }
 
-        
-
+    public static void main(String[] args) {
+        System.out.println(System.currentTimeMillis());
     }
 }
