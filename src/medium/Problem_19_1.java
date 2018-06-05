@@ -1,5 +1,7 @@
 package medium;
 
+import entity.ListNode;
+
 /**
  * Remove Nth Node From End of List
  * 16ms
@@ -48,8 +50,4 @@ public class Problem_19_1 {
         System.out.println(new Problem_19_1().removeNthFromEnd(node1, 1).val);
     }
 }
-class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) { val = x; }
-}
+
